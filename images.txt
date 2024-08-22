@@ -1,9 +1,2 @@
-nginx
-#支持私库
-redis
 mysql:5.7.8
-infiniflow/ragflow
-
-
-#支持指定架构
-#--platform=linux/arm64 xiaoyaliu/alist
+redis:7.2.4
