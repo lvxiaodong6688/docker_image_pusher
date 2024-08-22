@@ -1,9 +1,9 @@
 nginx
 #支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-xhofe/alist:latest
-redis
-mysql
+redis:7.2.4
+mysql:5.7.18
 infiniflow/ragflow
+elasticsearch
+quay.io/minio/minio:RELEASE.2023-12-20T01-00-02Z
 #支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
+#--platform=linux/arm64 xiaoyaliu/alist
